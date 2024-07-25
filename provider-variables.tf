@@ -21,6 +21,6 @@ variable "usr-skip-provider-registration" {
 
 variable "create-resource" {
   type        = bool
-  default     = false
+  default     = true
   description = "Toggle resource creation"
 }
