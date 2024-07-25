@@ -1,26 +1,26 @@
 variable "usr-subscription-id" {
-    type = string
+  type = string
 }
 
 variable "usr-tenant-id" {
-    type = string
+  type = string
 }
 
 variable "usr-client-id" {
-    type = string
+  type = string
 }
 
 variable "usr-client-secret" {
-    type = string
+  type = string
 }
 
 variable "usr-skip-provider-registration" {
-    type = bool
-    default = true
+  type    = bool
+  default = true
 }
 
 variable "create-resource" {
-    type = bool
-    default = false
-    description = "Toggle resource creation"
+  type        = bool
+  default     = false
+  description = "Toggle resource creation"
 }
